@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/l9Jxgebc)
-
 # Commands
 ### READ
 Format: READ <path>
@@ -11,7 +9,20 @@ Format: WRITESYNC <path>
 Format: WRITEASYNC <path>
 
 ### CREATEFILE
-Format: CREATEFILE <path> <>
+Format: CREATEFILE <path> <name>
+
+### CREATEFOLDER
+Format: CREATEFILE <source> <name>
+
+### COPYFILE
+Format: COPYFILE <path> <dest>
+
+### COPYFOLDER
+Format: COPYFOLDER <path> <dest>
+
+### STREAM
+Format : STREAM <path>
+
 
 # Assumptions
 
